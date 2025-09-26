@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    width: 400px;
+    height: 100px;
+    padding: 16 8;
+    border-radius: 16;
+    background-color: #1F2937;
+    margin: auto;
+}
+.headding{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    /* width: 500px;
+    height: 80px; */
+}
+#h1-el{
+    margin-bottom: 0px;
+    color: white;
+}
+#h1a-el{
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    font-family:'Courier New', Courier, monospace;
+    color: #0a8a5f;
+    size: 20px;
+    letter-spacing: 0%;
+}
+#h2-el{
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    color: #D5D4D8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 400;
+    
+}
+.button-el{
+    background-color: #10B981;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    color: white;
+
+}
+#output-el{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#0a8a5f;
+}
+#first-el,#second-el{
+    width: 200px;
+    height: 20px;
+    border-radius: 6px;
+    background-color: #273549;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+#submit-el{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#userNumber-el{
+    width: 30px;
+    height: 20px;
+    margin-right: 40px;
+}
+#range-el{
+    padding: 0px 0px 0px 0xp;
+    margin: 0px 0px 20px 0px;
+    color: #D5D4D8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 100;
+}

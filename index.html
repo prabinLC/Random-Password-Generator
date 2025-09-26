@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Random Password Generator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div>
+            <div id="headding">
+                <h1 id="h1-el">Generate a </h1>
+                <h1 id="h1a-el">randomPassword</h1>
+                <h2 id="h2-el">Never use an insecure password again</h2>
+            </div>
+        
+        <button class="button-el" onclick="randomPassword()">Generate password</button>
+        <div id="output-el">
+        <p id="first-el">hear</p>
+        <p id="second-el">hear</p>
+        </div>
+       
+        </div>
+        <p id="range-el">Select the range of the password</p>
+        <div id="submit-el">
+            <input type="number" id="userNumber-el" name="selectrange" >
+            <button onclick="processInput()" class="button-el">Submit</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
